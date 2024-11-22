@@ -61,20 +61,6 @@ const MenuScreen = () => {
   );
 };
 
-const styles = StyleSheet.create({
-  container: { flex: 1, padding: 10 },
-  tabs: { flexDirection: 'row', justifyContent: 'space-around', marginBottom: 10 },
-  tab: { fontSize: 18, color: 'blue', fontWeight: 'bold' },
-  dishCard: {
-    flexDirection: 'row',
-    padding: 10,
-    borderWidth: 1,
-    borderColor: '#ddd',
-    borderRadius: 8,
-    marginBottom: 20,
-    backgroundColor: '#fff',
-  },
-  image: { width: 100, height: 100, marginRight: 10, borderRadius: 8 },
-});
+
 
 export default MenuScreen;

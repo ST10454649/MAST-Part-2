@@ -20,19 +20,6 @@ const LogInScreen = () => {
   );
 };
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1, justifyContent: 'center', padding: 20,
-  },
-  logo: {
-    fontSize: 40, marginBottom: 20, textAlign: 'center',
-  },
-  input: {
-    borderWidth: 1, padding: 10, marginVertical: 10,
-  },
-  forgotPassword: {
-    color: 'blue', textAlign: 'right', marginBottom: 20,
-  },
-});
+
 
 export default LogInScreen;
